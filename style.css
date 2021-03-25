@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:100vh;
+}
+
+button{
+  font-size: 20px;
+}
+
+#container{
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  height:1000px;
+  width:1000px;
+}
+
+.row{
+  flex-grow: 1;
+  display:flex;
+  flex-direction:row;
+}
+
+.box{
+  flex-grow:1;
+  border: 1px solid black;
+  background-color: red;
+}

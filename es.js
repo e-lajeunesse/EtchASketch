@@ -58,8 +58,7 @@ draw('blue');
 
 
 const save = document.querySelector('#save');
-save.addEventListener('click', () => {
-  alert('click');
+save.addEventListener('click', () => {  
   html2canvas(document.querySelector("#container")).then(canvas => {
     //document.body.appendChild(canvas)
     const image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");

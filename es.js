@@ -88,14 +88,14 @@ function reset() {
     }
     return n;
   }
-  let colors = ['blue', 'red', 'green', 'yellow', 'black', 'orange', 'white', 'purple', 'gray'];
+  let colors = ['blue', 'red', 'green', 'yellow', 'black', 'orange', 'white', 'purple', 'gray','brown', 'tan','pink'];
   let size = getSize();
   let getColor = function () {
     let color;
     while (!colors.includes(color)) {
       color = prompt('Enter desired background color').toLowerCase();
       if (!colors.includes(color)) {
-        alert('Invalid color, valid colors are: blue,red,green,yellow,black,orange,purple,gray');
+        alert('Invalid color, valid colors are: blue,red,green,yellow,black,orange,purple,gray,pink');
       }
     }
     return color;
@@ -106,7 +106,7 @@ function reset() {
     while (!colors.includes(color)) {
       color = prompt('Enter desired drawing color').toLowerCase();
       if (!colors.includes(color)) {
-        alert('Invalid color, valid colors are: blue,red,green,yellow,black,orange,purple,gray');
+        alert('Invalid color, valid colors are: blue,red,green,yellow,black,orange,purple,gray,brown,tan,pink');
       }
     }
     return color;

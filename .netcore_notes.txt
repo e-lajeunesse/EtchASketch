@@ -1,0 +1,3 @@
+.net core
+
+-for services create an IService i.e IBugItemService and then a regular service which inherits, then in startup.cs add services.AddScoped<IService,Service>();
